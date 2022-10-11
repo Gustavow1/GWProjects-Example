@@ -1,0 +1,38 @@
+
+.div_principal {
+    display: flex;
+    /* background-color: #2222; */
+    flex-flow: row wrap nowrap;
+    gap: 10vw;
+}
+
+.div_menu {
+    background-color: #2b2828;
+    border-radius: 1.4em;
+    align-items: stretch; 
+    
+}
+
+.div_menu h1 {
+    color: #ffbb33;
+    background-color: #7b7b7b;
+    border-style: solid;
+    border-color: #7b7b7b;
+    border-radius: .4em .4em 0 0;
+    margin-bottom: 1em;
+}
+
+
+.div_dashboard {
+    background-color: #2b2828;
+    padding: 1em;
+    font-size: 150%;
+}
+
+.div_menu > a {
+    display: block;
+    flex-direction: column;
+    background-color: #2222;
+    padding: 0.5em 1em;
+}
+
